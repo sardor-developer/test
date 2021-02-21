@@ -1,0 +1,962 @@
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        /* Top_header */
+
+        .top_header {
+            display: flex;
+            position: relative;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .top_header_left {
+            justify-content: flex-start;
+        }
+
+        .top_header_center {
+            justify-content: center;
+        }
+
+        .top_header_right {
+            justify-content: flex-end;
+        }
+
+        .top_headerrr {
+            display: flex;
+            flex-grow: 1;
+            align-items: center;
+        }
+
+        .top_info_addres {
+            display: flex;
+            align-items: baseline;
+        }
+
+        .top_info_addres p {
+            margin-left: 8px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: normal;
+            font-size: 15px;
+        }
+
+        .top_info .fa {
+            color: #9fc7db;
+            font-size: 20px;
+        }
+        
+        .custom-logo-link {
+            float: left;
+        }
+
+        .top_header_right ul li {
+            background-color: #9fc7db;
+            border-radius: 50%;
+            width: 40px;
+            align-items: center;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            margin-left: 8px;
+        }
+
+        .top_header_right ul li:hover .fa {
+            color: #000;
+        }
+
+        .top_header_right ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .top_header_right .fa {
+            font-size: 20px;
+            color: #fff;
+        }
+
+        .social_icon_top h5 {
+            font-size: 15px;
+            font-weight: normal;
+            text-align: right;
+            padding-bottom: 8px;
+        }
+
+        /* End Top_header  */
+        /* header */
+
+        .header-style-two {
+            background: url("http://test.ninito.uz/wp-content/uploads/2021/02/menu_background.png") no-repeat center;
+            background-size: cover;
+            padding: 0;
+        }
+
+        .header-style-two .header-wrapper .header-navigation-area .main-menu ul li a {
+            color: #fff;
+            font-size: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 24px 35px;
+        }
+
+        .header-style-two .header-wrapper .header-navigation-area .main-menu ul li a:hover {
+            color: #9fc7db;
+        }
+
+        .navbar-light .navbar-nav .menu-item:not(:last-child) {
+            border-right: 1px solid #4a4b4b;
+        }
+
+        header .custom-logo {
+            display: none;
+        }
+
+        /* End  header */
+        /* Header_slider */
+
+        .header_slider {
+            margin-top: 45px;
+        }
+
+        .slider_item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .slider_item {
+            position: relative;
+        }
+
+        .slick-arrow {
+            position: absolute;
+            top: 87%;
+            z-index: 10;
+            font-size: 0;
+            color: #808b98;
+        }
+
+        .slick-prev {
+            width: 35px;
+            height: 35px;
+            font-size: 15px;
+            align-items: center;
+            border-radius: 50%;
+            background: transparent;
+            border: 2px solid #415263;
+            display: flex;
+            justify-content: center;
+            right: 6.5%;
+        }
+
+        .slick-next {
+            width: 35px;
+            height: 35px;
+            font-size: 15px;
+            align-items: center;
+            border-radius: 50%;
+            background: transparent;
+            border: 2px solid #415263;
+            display: flex;
+            justify-content: center;
+            right: 3%;
+        }
+
+        .slider_main {
+            position: relative;
+        }
+
+        .slick-dots {
+            position: absolute;
+            top: 87%;
+            display: flex;
+            list-style: none;
+            right: 11%;
+        }
+
+        .slider_text img {
+            width: auto;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .slider_text p {
+            display: inline-block;
+            font-size: 14px;
+            color: #838486;
+        }
+
+        .slider_text {
+            width: 100%;
+            position: absolute;
+            background: rgba(30, 54, 79, 0.9);
+            top: 81%;
+            padding: 15px 28px 10px 17px;
+            height: 102px;
+        }
+
+        .slider_text h4 {
+            font-size: 22px;
+            font-weight: 400;
+            color: #7caab1;
+        }
+
+        .slider_btn_tickets {
+            border: 1px solid #838486;
+            border-radius: 20px;
+            color: #fff;
+            font-size: 15px;
+            padding: 6px 19px;
+            margin-left: 5px;
+        }
+
+        .slider_btn_tickets:hover {
+            background-color: #34495e;
+            color: #fff;
+        }
+
+        .slick-dots button {
+            border-radius: 50%;
+            border: 2px solid #44576b;
+            background-color: transparent;
+            color: #808b98;
+            width: 35px;
+            height: 35px;
+            margin-left: 10px;
+        }
+
+        .slick-dots .slick-active button {
+            background-color: #34495e;
+            border: none;
+        }
+
+        .slick-arrow:hover {
+            background-color: #34495e;
+            border: none;
+        }
+
+        /* End Header_slider */
+        /*  Upcoming_shows */
+
+        .upcoming_shows {
+            margin-top: 50px;
+            margin-bottom: 45px;
+        }
+
+        .upcoming_shows_title {
+            font-size: 34px;
+            color: #3a3b3c;
+            font-weight: lighter;
+            margin-bottom: 20px;
+        }
+
+        .upcoming_shows_blog {
+            background: #1e1f21;
+            display: flex;
+            padding: 17px 25px 25px 25px;
+            margin-bottom: 25px;
+        }
+
+        .upcoming_shows .data {
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+            margin-right: 18px;
+        }
+
+        .upcoming_shows .data h3 {
+            font-size: 44px;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+
+        .blog_text {
+            margin-left: 28px;
+        }
+
+        .blog_text_info {
+            font-size: 14px;
+            color: #a9a9a9;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .blog_text h4 {
+            color: #7da9ad;
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 12px;
+        }
+
+        .blog_text p {
+            font-size: 14px;
+            color: #a9a9a9;
+        }
+
+        .btn_upcoming_shows {
+            color: #fff;
+            font-size: 15px;
+            border: 1px solid #626364;
+            border-radius: 20px;
+            font-weight: 400;
+            padding: 7px 25px;
+        }
+
+        .btn_upcoming_shows:hover {
+            color: #fff;
+            background: #7da9ad;
+        }
+
+        .btn_upcoming_shows img {
+            margin-right: 8px;
+        }
+
+        .tickets_price {
+            font-size: 20px;
+            color: #fff;
+            margin-left: 7px;
+        }
+
+        .blog_text_ages {
+            font-size: 13px;
+            color: #a9a9a9;
+            margin-top: 20px;
+        }
+
+        .upcoming_shows_sidebar {
+            background: url('http://test.ninito.uz/wp-content/uploads/2021/02/background_email.png') no-repeat center;
+            background-size: cover;
+            padding: 20px 25px 25px 25px;
+            text-align: center;
+        }
+
+        .upcoming_shows_sidebar img {
+            display: flex;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+
+        .upcoming_shows_sidebar h4 {
+            font-size: 26px;
+            color: #1e1f21;
+        }
+
+        .wpcf7-form-control {
+            font-size: 15px;
+            border-radius: 20px;
+            height: 40px;
+            border: none;
+            padding-left: 20px;
+            outline: none;
+            width: 100%;
+        }
+
+        .wpcf7-submit {
+            background: #ba6b15;
+            color: #fff;
+            border: none;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            border-radius: 20px;
+            padding: 9px 49px;
+            width: auto;
+        }
+
+        .btn_upcoming_shows .fa {
+            color: #f49830;
+        }
+
+
+        /*  Services */
+
+        .services {
+            background: url('http://test.ninito.uz/wp-content/uploads/2021/02/services_bg.jpg')no-repeat center;
+            background-size: cover;
+            padding-top: 80px;
+            padding-bottom: 70px;
+        }
+
+        .services_text .services_text_title {
+            font-family: 'Lobster', cursive;
+            font-size: 32px;
+            color: #fff;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+
+        .services_text p {
+            font-size: 20px;
+            color: #fff;
+            font-weight: lighter;
+        }
+
+        .services_text {
+            padding: 175px 30px 25px;
+            background-size: cover;
+            transition: all 0.3s;
+            transform: scale(1);
+        }
+
+        .services_text:hover {
+            transform: scale(1.1);
+        }
+
+        /*  End Services */
+
+        /*   Footer */
+        footer {
+            padding-top: 50px;
+            padding-bottom: 55px;
+        }
+
+        .footer_info .fa {
+            color: #9fc7db;
+            font-size: 20px;
+        }
+
+        .footer_addres {
+            display: flex;
+        }
+
+        .footer_addres p {
+            margin-left: 8px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: normal;
+            font-size: 15px;
+        }
+
+        .footer_menu ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .footer_menu ul li:not(:last-child) {
+            padding-right: 45px;
+        }
+
+        .footer_menu ul li a {
+            font-size: 15px;
+            font-weight: 400;
+            color: #1e1f21;
+        }
+
+        .Copyright {
+            text-align: right;
+            font-size: 15px;
+            font-weight: 400;
+            color: #a8a8a8;
+            padding-top: 15px;
+        }
+        .fb-page{
+            margin-bottom: 25px;
+           margin-top: 26px;
+        }
+        .fb-page span {
+            width: 100%  !important;
+        }
+        .fb-page iframe {
+            width: 100%  !important;
+        }
+        
+        .adsds {
+            margin-bottom: 28px;
+        }
+        .jr-insta-thumb ul.thumbnails li img {
+            height: 260px !important;
+        }
+        
+        .GraphImage div {
+            border: 17px solid #dcdcdc;
+        }
+        
+        .jr-insta-slider .widget-title {
+            margin-top: 30px;
+        }
+        
+        .wp-image-49 {
+            width: 100%;
+            margin-top: 25px;
+        }
+        
+        .custom-logo-link{
+            padding-top: .3125rem;
+            padding-bottom: .3125rem;
+            margin-right: 1rem;
+            font-size: 1.25rem;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+ h5 p {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 1400px) {
+            .wp-image-49 {
+                width: 100%;
+                margin-top: 20.5%;
+            }
+            .slider_text {
+                top: 78%;
+            }
+
+            .slick-dots {
+                top: 86%;
+            }
+
+            .slick-arrow {
+                top: 86%;
+            }
+            
+            .blog_text h4 {
+                font-size: 18px;
+            }
+            .btn_upcoming_shows {
+                padding: 7px 17px;
+            }
+            .tickets_price {
+                font-size: 17px;
+            }
+            .adsds {
+                margin-bottom: 22px;
+            }
+            .fb-page span {
+                height: 267px  !important;
+            }
+            .fb-page iframe {
+                height: 267px  !important;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .slider_text {
+                top: 74%;
+            }
+
+            .slick-dots {
+                top: 83%;
+            }
+
+            .slick-arrow {
+                top: 83%;
+            }
+
+            .slick-next {
+                right: 2%;
+            }
+
+            .services_text .services_text_title {
+                font-size: 26px;
+            }
+
+            .services_text p {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .mean-container .mean-nav ul li a.mean-expand {
+                font-size: 14px !important;
+            }
+            .meanclose {
+                font-size: 0 !important;
+            }
+            .mean-container a.meanmenu-reveal {
+                background: url(http://test.ninito.uz/wp-content/uploads/2021/02/menu.png) center center no-repeat;
+                font-size: 0 !important;
+            }
+            .meanmenu-reveal span {
+                display: none !important;
+            }
+            .custom-logo-link {
+                position: relative;
+                float: left;
+                top: 15px;
+            }
+            .header-style-two {
+                background: #fff no-repeat center;
+                background-size: cover;
+                padding: 0;
+            }
+            .widget_fbw_id {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            header .custom-logo {
+                display: block;
+            }
+
+            .navbar {
+                background: #fff;
+            }
+
+            .custom-logo-link img {
+                width: 50%;
+                height: auto;
+            }
+
+            .header-style-two .header-wrapper .header-navigation-area .main-menu ul li a {
+                color: #000;
+            }
+
+            .navbar-light .navbar-nav .menu-item:not(:last-child) {
+                border-left: 1px solid #4a4b4b;
+            }
+
+            .navbar-light .navbar-nav .menu-item {
+                text-align: center;
+            }
+
+            .slider_text h4 {
+                font-size: 16px;
+                margin-bottom: 0;
+            }
+
+            .slider_btn_tickets {
+                font-size: 10px;
+                padding: 5px 14px;
+            }
+
+            .slick-dots button {
+                width: 25px;
+                height: 25px;
+                font-size: 11px;
+            }
+
+            .slick-dots {
+                right: 14%;
+            }
+
+            .slick-prev {
+                width: 25px;
+                height: 25px;
+                right: 8.5%;
+            }
+
+            .slick-next {
+                width: 25px;
+                height: 25px;
+                right: 3.5%;
+            }
+
+            .upcoming_shows_title {
+                font-size: 26px;
+            }
+
+            .upcoming_shows .data {
+                font-size: 15px;
+            }
+
+            .upcoming_shows .data h3 {
+                font-size: 27px;
+            }
+
+            .blog_text h4 {
+                font-size: 16px;
+            }
+
+            .btn_upcoming_shows {
+                font-size: 12px;
+                padding: 5px 15px;
+            }
+
+            .footer_menu ul li:not(:last-child) {
+                padding-right: 20px;
+            }
+
+            .services_text {
+                margin-bottom: 25px;
+            }
+
+            .tickets_price {
+                font-size: 16px;
+            }
+
+            .blog_text_ages {
+                font-size: 12px;
+            }
+
+            .top_header {
+                display: none;
+            }
+
+            .header-style-two .header-wrapper .header-navigation-area .main-menu ul li a {
+                padding: 14px 0px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .services_text:hover {
+                transform: scale(1);
+            }
+            .slider_text h4 {
+                font-size: 12px;
+            }
+
+            .slider_text {
+                top: 74%;
+                padding: 9px 10px 10px 10px;
+                height: 55px;
+            }
+
+            .slider_text img {
+                width: 15%;
+                display: inline-block;
+                margin-right: 5px;
+            }
+
+            .slider_text p {
+                display: inline-block;
+                font-size: 11px;
+                color: #838486;
+            }
+
+            .slider_btn_tickets {
+                font-size: 9px;
+                padding: 3px 5px;
+            }
+
+            .slick-dots button {
+                width: 20px;
+                height: 20px;
+                font-size: 8px;
+                margin-left: 5px;
+            }
+
+            .slick-prev {
+                width: 20px;
+                height: 20px;
+            }
+
+            .slick-next {
+                width: 20px;
+                height: 20px;
+            }
+
+            .slick-dots {
+                top: 81%;
+            }
+
+            .upcoming_shows_blog {
+                display: block;
+                padding: 0px 0px 25px 0px;
+            }
+
+            .main_img_blog {
+                width: 100%;
+            }
+
+            .upcoming_shows .data {
+    position: absolute;
+    padding: 5px;
+    color: #fff;
+    background: #9fc7db;
+}
+
+            .upcoming_shows .data h3 {
+                font-size: 22px;
+            }
+
+            .blog_text {
+                margin-left: 5px;
+                margin-top: 10px;
+                margin-right: 5px;
+            }
+
+
+            .upcoming_shows .data h3 {
+                display: inline-block;
+                padding: 3px;
+            }
+
+            .blog_text_info {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+
+            .blog_text p {
+                font-size: 12px;
+                color: #a9a9a9;
+            }
+
+            .blog_text h4 {
+                font-size: 15px;
+            }
+
+            .btn_upcoming_shows {
+                font-size: 10px;
+                padding: 5px 6px;
+            }
+
+            .tickets_price {
+                font-size: 14px;
+            }
+
+            .upcoming_shows_blog {
+                display: block;
+                padding: 0px 0px 0px 0px;
+                width: 48%;
+                float: left;
+                margin-right: 0px;
+                margin-left: 5px;
+            }
+        }
+
+
+        @media (max-width: 576px) {
+            .top_header {
+                display: none;
+            }
+
+            .upcoming_shows_title {
+                font-size: 22px;
+            }
+
+            .upcoming_shows {
+                margin-top: 30px;
+                margin-bottom: 45px;
+            }
+        }
+
+
+        @media (max-width: 500px) {
+            .footer_menu ul li a {
+                font-size: 13px;
+                font-weight: 400;
+                color: #1e1f21;
+            }
+            .custom-logo-link {
+                top: 15px;
+            }
+            .slider_text {
+                top: 71%;
+            }
+
+            .slick-dots {
+                top: 78%;
+            }
+
+            .slick-arrow {
+                top: 80%;
+            }
+
+            .blog_text h4 {
+                font-size: 12px;
+            }
+            .header_slider {
+                margin-top: 25px;
+            }
+        }
+
+        @media (max-width: 465px) {
+            .slider_text h4 {
+                font-size: 11px;
+            }
+
+            .slider_text p {
+                font-size: 10px;
+            }
+
+            .slider_btn_tickets {
+                font-size: 8px;
+                padding: 2px 0px;
+            }
+
+            .upcoming_shows_blog {
+                width: 100%;
+            }
+
+            footer {
+                padding-top: 20px;
+                padding-bottom: 0px;
+            }
+        }
+
+        @media (max-width: 430px) {
+            .slick-dots {
+                left: -7%;
+                top: 82%;
+            }
+
+            .slider_text {
+                top: 57%;
+                height: 70px;
+            }
+
+            .slick-prev {
+                left: 26%;
+            }
+
+            .slick-next {
+                left: 32%;
+            }
+
+            .slick-arrow {
+                top: 84%;
+
+            }
+        }
+
+        @media (max-width: 400px) {
+            .slider_text {
+                top: 55%;
+                height: 70px;
+            }
+        }
+
+        @media (max-width: 355px) {
+            .slider_text {
+                top: 48%;
+                height: 70px;
+            }
+
+            .slick-dots {
+                left: -7%;
+                top: 79%;
+            }
+
+            .slick-arrow {
+                top: 82%;
+            }
+
+            .slick-prev {
+                left: 30%;
+            }
+
+            .slick-next {
+                left: 38%;
+            }
+
+            .custom-logo-link img {
+                width: 35% !important;
+                height: auto;
+            }
+
+            .navbar-light .custom-logo {
+                width: 75%;
+            }
+        }
+        
+        
+        /* dropdown */
+.dropdown-menu {
+    margin: 0px auto;
+}
+.dropdown-menu .dropdown-menu {
+    left: 100%;
+    top: 0px;
+}
+/*  shows the dropdown on hover*/
+.navbar ul.nav li:hover > ul.dropdown-menu {
+    display: block;   
+}
+/* before and after */
+.navbar .nav > li > .dropdown-menu::before, .navbar .nav > li > .dropdown-menu::after {
+    display: none;
+}
+
